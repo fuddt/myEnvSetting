@@ -3,7 +3,6 @@ set nu
 set shiftwidth=4
 set hls
 set incsearch
-colorscheme evening
 syntax on
 set smartindent
 set laststatus=2
