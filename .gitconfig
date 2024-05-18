@@ -1,0 +1,15 @@
+[alias]
+diff = diff --color
+diffa = diff --cached
+diffc = diff HEAD^
+diffw = diff --ignore-all-space
+comeback = checkout `git rev-list --max-parents=0 HEAD`
+st=status
+ch=checkout
+cm=commit -m
+alias=config --global -l
+br=branch
+rs=restore
+sw=switch
+tree=log --graph --oneline --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+core.editor=code --wait
