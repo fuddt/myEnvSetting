@@ -2,7 +2,9 @@
 diff = diff --color
 diffa = diff --cached
 diffc = diff HEAD^
-diffw = diff --ignore-all-space
+diffi = diff --ignore-all-space
+diffn = !(git diff --name-only $(git merge-base HEAD main) HEAD)
+diffs = !(git diff $(git merge-base HEAD main) HEAD)
 comeback = checkout `git rev-list --max-parents=0 HEAD`
 st=status
 ch=checkout
